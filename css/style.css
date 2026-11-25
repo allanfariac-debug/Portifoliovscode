@@ -37,7 +37,7 @@
 
   /* Sombras & Elevação */
   --shadow-card: 0 20px 45px -20px rgba(0, 0, 0, 0.75);
-  --shadow-glow: 0 0 40px -10px rgba(198, 243, 107, 0.25);
+  --shadow-glow: 0 0 40px -10px rgba(255, 0, 0, 0.3)
 
   /* Transições */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -224,7 +224,7 @@ address {
 .info {
   padding-block: clamp(4rem, 8vw, 7rem);
   border-bottom: 1px solid var(--color-border);
-  background: radial-gradient(circle at 80% 25%, rgba(198, 243, 107, 0.11), transparent 45%);
+  background: radial-gradient(circle at 80% 25%, #00e9cf, transparent 30%);
 }
 
 .info-grid {
